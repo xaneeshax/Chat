@@ -1,9 +1,6 @@
 import React from "react";
 import { View, Text, } from 'react-native';
 import styles from './styles'
-// import dayjs from "dayjs";
-// import relativeTime from "dayjs/plugin/relativeTime";
-// dayjs.extend(relativeTime);
 
 const myID = "u1";
 

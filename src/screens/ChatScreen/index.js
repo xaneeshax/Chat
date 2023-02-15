@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import Messages from "../../components/Messages";
 import chatRoomData from "../../assets/dummy-data/Chats"
+import MessageInput from "../../components/MessageInput";
 
 const ChatScreen = () => {
 
@@ -14,7 +15,9 @@ const ChatScreen = () => {
                     <Messages message={item} />
                 }
             />
+            <MessageInput />
         </View>
+        
          
     );
 };
