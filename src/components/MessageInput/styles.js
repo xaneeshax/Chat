@@ -10,13 +10,23 @@ const styles = StyleSheet.create({
         flex: 1,
         marginRight: 10,
         borderRadius: 25,
-        justifyContent: 'center',
+        alignItems: 'center',
         borderWidth: 1,
-        borderColor: '#dedede'
-    }, 
+        borderColor: '#dedede',
+        flexDirection: "row",
+        padding: 5,
+    },
+    input: {
+        flex: 1,
+        marginHorizontal: 5,
+    },
+    icon: {
+        marginRight: 5, 
+        marginLeft: 5, 
+    },
     buttonContainer: {
-        width: 50,
-        height: 50,
+        width: 37,
+        height: 37,
         backgroundColor: '#3777f0',
         borderRadius: 25,
         justifyContent: 'center',
@@ -24,8 +34,9 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: 'white',
-        fontSize: 35,
-
+        fontSize: 30,
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 })
 
