@@ -13,7 +13,12 @@ const ChatRoomItem = ({ chatRoom }) => {
 
     return (
         <Pressable 
-            onPress={() => navigation.navigate('Chat')} 
+            onPress={() => {
+                console.warn(user.name)
+                navigation.navigate('Chat', {
+                    id: chatRoom.id
+                })
+            }} 
             style={styles.container}
         >
             <Image 
